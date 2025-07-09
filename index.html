@@ -1,0 +1,70 @@
+<style>
+    .box {
+        background-color: rgb(213, 19, 19);
+        color: white;
+        width: 500px;
+        height: 500px;
+        display: none;
+        margin-left: 40%;
+
+    }
+
+    #close {
+        text-align: right;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    #btn {
+        margin-left: 50%;
+    }
+
+    .box p{
+        margin: 10px;
+        text-align: center;
+    }
+</style>
+
+<button id="btn">click Here Dear</button>
+
+<div class="box">
+    <p id="close">X</p>
+    <p class="poem">கதிரவன் தேடி வரும் ஒளியல்லவோ நீ,
+        என் கண்களில் மின்னும் கனவல்லவோ நீ?
+        காற்றென மென்மை, பூவென அழகு,
+        உன் பார்வையிலே நான் புதிதாய் பிறக்கின்றேன்.
+
+        உன் புன்னகையில் பிறக்கிறது என் நாளோடு விழுதுகள்,
+        உன் வார்த்தைகளில் உருகிறது என் மனத்தின் எல்லைகள்.
+        நீ அருகில் இருந்தால் உலகமே பரிசாய் தெரிகிறது,
+        நீ இல்லாத சாமர்த்தியம் எனக்கில்லை, என் தேவதே!
+
+        புயல் வந்தாலும் என் கரங்களை நீ பிடித்தாய்,
+        அந்த ஒன்றே போதும் — நான் வாழ்கின்றேன்.
+        காலங்கள் மாற்றியபோதும் காதல் மாறவில்லை,
+        அது உன்னைப் போலவே — என்றும் அழகு, என்றும் உண்மை.
+
+        நீ என் காதல், என் நட்பு, என் நிம்மதி,
+        என் வாழ்நாள் முழுவதும் நீ தான் என் கவிதை.
+        நீயிருப்பதால் தான் என் வாழ்க்கை அர்த்தமாய் தெரிகிறது,
+        நீயன்றி எனக்கு எந்த சந்தோஷமும் முழுமையல்ல!
+        <br>
+        <br>
+    LOVE YOU DIII PONDADDIII❤️❤️❤️❤️</p>
+</div>
+
+<script>
+    var box = document.querySelector(".box")
+    var btn = document.getElementById("btn")
+    var close = document.getElementById("close")
+
+    btn.addEventListener("click", function () {
+        box.style.display = "block"
+    })
+
+    close.addEventListener("click", function () {
+        box.style.display = "none"
+
+    })
+
+</script>
